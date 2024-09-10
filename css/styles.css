@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c8dbe1;
+    font-family: Arial, sans-serif;
+  }
+  
+  #map {
+    height: 100%;
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  @media (max-width: 768px) {
+    #map {
+      height: 500px;
+    }
+  }
+/* Custom styling for country labels */
+.country-label {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    color: #000; /* Black text */
+    font-size: 12px; /* Adjust font size */
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid #ccc; /* Optional border */
+  }
+  
